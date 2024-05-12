@@ -6,6 +6,7 @@ env:
   AUTOMATION_EMAIL: "jmaransay@gmail.com"
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "21 7 * * *" 
 jobs:
