@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: xetdata/checkout@v1
+        uses: actions/checkout@master
       - name: Set up Python 
         uses: actions/setup-python@v5
         with:
